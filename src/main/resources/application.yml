@@ -1,0 +1,22 @@
+#DataSource Configuration
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://10.1.9.69:5432/vcs?useUnicode=true&characterEncoding=utf8
+    username: vcs
+    password: vcs
+server:
+  servlet:
+    contextPath: /api
+properties:
+  imageBaseFilePath: D:/PhotoImage
+  couponImageFolder: /CouponImage/
+  profileImageFolder: /ProfileImage/
+  newsImageFolder: /NewsImage/
+  promotionImageFolder: /PromotionImage/
+  messageImageFolder: /MessageImage/
+  plMessageImageFolder: /PlMessageImage/
+  howToUseVideoFolder: /HowToUseVideo/
+  outletInfoListApiLink: http://10.1.9.70:83/assm2/outlet-info/outlet-info-list
+  outletImageApiLink: http://10.1.9.70:83/assm2/outlet-image-files/
+  outletLimitMetre: 1000
